@@ -2,7 +2,7 @@ const Port = require('../src/port.js')
 
 describe (Port, () => {
   it('the new object is an instance of Port class', () => {
-    expect(new Port()). toBeInstanceOf(Object)
+    expect(new Port()). toBeInstanceOf(Object);
   });
 
   it('sets the name property', () => {
